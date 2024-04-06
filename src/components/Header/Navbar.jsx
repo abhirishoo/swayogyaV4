@@ -5,7 +5,8 @@ import navbar1 from "../../assets/navbarphotos/navbar1.jpg"
 import navbar2 from "../../assets/navbarphotos/navbar2.jpg"
 import navbar3 from "../../assets/navbarphotos/navbar3.jpg"
 import navbar4 from "../../assets/navbarphotos/navbar4.jpg"
-import navbar5 from "../../assets/navbarphotos/navbar5.jpg"
+import navbar6 from "../../assets/navbarphotos/navbar6.jpg"
+import navbar10 from "../../assets/navbarphotos/navbar10.jpg"
 
 const Navbar = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
@@ -52,7 +53,7 @@ const Navbar = () => {
                
                 <div className='grid grid-row-4 gap-2'>
 
-                <div>About Us</div>
+                <div className='hover:'>About Us</div>
                 <div>Swaknee</div>
                 <div>Clinical</div>
                 <div>Steps</div>
@@ -92,13 +93,14 @@ const Navbar = () => {
             <div className='fixed mt-3 left-0 w-full px-[20vw] py-[5vh] bg-[#C2185B] h-52 text-white'>
             <div className='grid grid-cols-2'>
 
-            <div className='g'>
+            <div className='flex flex-col gap-3'>
             <div>About Us</div>
             <div>About Team</div>
             </div>
 
-            <div className='grid w-52'>
+            <div className='flex flex-row gap-10 w-52'>
             <img src={navbar3} alt="" />
+            <img src={navbar6} alt="" />
             </div>
             
 
@@ -119,7 +121,7 @@ const Navbar = () => {
             <div className='bg-[#F57C00] relative rounded-md w-full h-1'></div>
             <div className='fixed mt-3 left-0 w-full bg-[#F57C00] h-50  px-[20vw] py-[5vh] h-42 text-white'>
                 
-                <div className='grid grid-cols-3 gap-10'> 
+                <div className='grid grid-cols-3 '> 
                
                 <div className='grid grid-row-4 gap-2'>
                 <div>PEMF Therapy Devices</div>
@@ -130,13 +132,10 @@ const Navbar = () => {
 
                 
                 
+<div className='ml-24 flex flex-row gap-5'>
+                <img className='' src={navbar10} alt="img1" />
 
-                <div className=''>
-                <img className='w-29' src={navbar3} alt="img1" />
-                </div>
-
-                <div className=''>
-                <img className='w-36' src={navbar4} alt="img2" />
+                <img className='' src={navbar4} alt="img2" />
                 </div>
                 </div>
             </div>
@@ -149,12 +148,12 @@ const Navbar = () => {
         onMouseLeave={handleMouseLeave}
         >
                <Link to="/research"> Research </Link>
-        {hoveredItem === 'research' && (
+        {/* {hoveredItem === 'research' && (
           <div>
             <div className='bg-[#512DA8] relative rounded-md w-full h-1'></div>
             <div className='fixed mt-3 left-0 w-full bg-[#512DA8] h-60 text-white'></div>
           </div>
-        )}
+        )} */}
       </div>
       <div
         className={`hover:text-[#00897b] cursor-pointer relative ${hoveredItem === 'career' ? 'text-[#00897b]' : 'text-[#0288D1]'}`}
@@ -162,12 +161,12 @@ const Navbar = () => {
         onMouseLeave={handleMouseLeave}
         >
             <Link to="/career"> Career </Link>
-        {hoveredItem === 'career' && (
+        {/* {hoveredItem === 'career' && (
           <div>
             <div className='bg-[#00897b] relative rounded-md w-full h-1'></div>
             <div className='fixed mt-3 left-0 w-full bg-[#00897b] h-60 text-white'></div>
           </div>
-        )}
+        )} */}
       </div>
       <div
         className={`hover:text-[#3362C2] cursor-pointer relative ${hoveredItem === 'career' ? 'text-[#00897b]' : 'text-[#0288D1]'}`}

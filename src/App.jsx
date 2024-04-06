@@ -18,6 +18,7 @@ import Steps from './components/Middle/Steps';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Science from './components/Middle/Science';
 import Map from './components/Contact/Map';
+import Producthero from './components/Product/Producthero';
 
 function App() {
   return (
@@ -31,8 +32,8 @@ function App() {
                 <div id="Hero">
                   <Background />
                   <BlueStrip />
-                  <ScrollHideDiv />
                   <Navbar />
+                  {/* <ScrollHideDiv />  */}
                 </div>
                 <div id="MainContent">
                   <AboutUs />
@@ -133,6 +134,16 @@ function App() {
             <Footer/>
           </div>
           </> }/>
+
+          <Route path='/product' element={
+            <> 
+            <div>
+              <BlueStrip/>
+            <Navbar/>
+            <Producthero/>
+            <Footer/>
+          </div>
+          </> } />
 
         </Routes>
       </BrowserRouter>

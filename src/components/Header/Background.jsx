@@ -22,7 +22,7 @@ const Background = () => {
   return (
     <div className='relative'>
       {/* Background Image */}
-      <div className='hidden md:block h-screen bg-cover md:mt-[13%] lg:mt-[13%]' style={{ backgroundImage: `url(${banner5})` }}>
+      <div className='hidden md:block h-screen bg-cover md:mt-[13%] lg:mt-[10%]' style={{ backgroundImage: `url(${banner5})` }}>
       </div>
       <div className='sm:block md:hidden h-screen bg-cover' style={{ backgroundImage: `url(${banner5mobile})` }}></div>
       {/* Circle */}
