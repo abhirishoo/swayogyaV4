@@ -6,7 +6,7 @@ const ScrollHideDiv = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const springProps = useSpring({
-    height: isVisible ? '75px' : '8px',
+    height: isVisible ? '55px' : '8px',
     config: { tension: 300, friction: 30 }
   });
 
@@ -26,13 +26,13 @@ const ScrollHideDiv = () => {
 
   return (
     <animated.div
-      className="hidden md:hiddden z-10 lg:block fixed lg:top-[23.5%]   bg-white w-full px-24  md:px-46  lg:pt-1   overflow-hidden"
+      className="hidden md:hiddden z-10 lg:block fixed lg:top-[21.3%]   bg-white w-full px-24  md:px-46  lg:pt-1   overflow-hidden"
       style={{
         height: springProps.height,
         boxShadow: '0px 0px 10px rgba(0, 0, 0, 1.9)' // Added box-shadow CSS property
       }}
     >
-      <div className="font-bold text-[#01579B] text-xl md:text-[20px] lg:text-[42px]   lg:px-28  mt-3  tracking-tighter">
+      <div className="font-bold text-[#01579B] text-lg md:text-[10px] lg:text-4xl   lg:px-36  mt-3  tracking-tighter">
         Our knowledge of orthopaedics. Your best health.
       </div>
     </animated.div>

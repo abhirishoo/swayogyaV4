@@ -29,13 +29,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className='hidden lg:block '>
+    <div className='hidden md:block '>
 
-    <div className=' overflow-hidden z-10 fixed top-[6%] bg-white w-full  lg:py-8 font-bold text-[#0288D1] justify-between  lg:px-60 flex text-sm  '>
-      <div className='w-16 -mt-5 flex-row gap-4'>
+    <div className=' overflow-hidden z-10 fixed top-[6%] bg-white w-full  lg:py-6  font-bold text-[#0288D1] justify-between  lg:px-28 md:px-28  flex lg:text-lg md:text-sm  '>
+      <div className='lg:w-16 w-12 -mt-4 flex-row lg:gap-4'>
         <img src={CompanyLogo} alt="CompanyLogo" />
       </div>
-    <div className='flex mt-5  gap-10'>
+    <div className='flex mt-5  lg:gap-10  gap-2   '>
       <div
           className={`cursor-pointer relative ${hoveredItem === 'home' ? 'text-[#F57C00]' : 'text-[#0288D1]'}`}
           onMouseEnter={() => handleMouseEnter('home')}
@@ -175,25 +175,7 @@ const Navbar = () => {
         onMouseLeave={handleMouseLeave}
         >
             <Link to="/product"> Products </Link>
-        {hoveredItem === 'product' && (
-          <div>
-            <div className='bg-[#3362C2] relat  ive rounded-md w-full h-1'></div>
-            <div className='fixed mt-3 left-0 w-full bg-[#3362C2] h-60 text-white px-[20vw] py-[5vh]'>
-            <div className='grid grid-cols-3 gap-10'> 
-               
-               <div className='grid grid-row-1 gap-2'>
-               <div>Swaknee</div>
-               
-               </div>
-               <div className=''>
-               <img className='w-48'  src={navbar5} alt="img1" />
-               </div>
 
-            
-               </div>
-            </div>
-          </div>
-        )}
       </div>
       <div className='cursor-pointer '>
        <Link to="/contactus"> Contact Us </Link>
@@ -201,7 +183,7 @@ const Navbar = () => {
    </div>  
    <div className='mt-3'>
 
-   <button className='  hover:bg-[#212ea0] bg-[#f57c00]   px-7 py-2  ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+   <button className='  hover:bg-[#212ea0] bg-[#f57c00]   lg:px-7 md:px-11 py-2  ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now 
             </button>
    </div>
