@@ -4,9 +4,9 @@ import { TEInput, TERipple } from 'tw-elements-react';
 export default function FooterAdvancedExample() {
     return (
         <footer className="bg-[#02569C] text-center text-white">
-            <div className="container px-6 pt-6 mx-auto">
+            <div className=" px-6 pt-6 mx-auto">
                 {/* <!-- Social media icons container --> */}
-                <div className="mb-6 flex justify-center w-full">
+                <div className="mb-6 flex justify-center lg:gap-1 gap-4 w-full">
                     <TERipple rippleColor="light">
                         <a
 
@@ -63,7 +63,7 @@ export default function FooterAdvancedExample() {
                         </a>
                     </TERipple>
 
-
+                    
                     <TERipple rippleColor="light">
                         <a
 
