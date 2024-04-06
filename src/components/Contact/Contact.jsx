@@ -128,7 +128,7 @@ const Contact = () => {
             <div className='mb-10 lg:mb-0'>
              <TERipple rippleColor="light"> 
               
-            <button className='  hover:bg-[#212ea0] bg-[#00897b]  px-5 py-3 ml-24 lg:ml-0 rounded-full items-center text-white' type='submit'>
+            <button className='  hover:bg-[#212ea0] bg-[#00897b]  px-5 py-3 ml-32 lg:ml-0 rounded-full  text-white' type='submit'>
               Submit now 
             </button>
             </TERipple>

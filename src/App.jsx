@@ -17,6 +17,7 @@ import Clinical from './components/Middle/Clinical';
 import Steps from './components/Middle/Steps';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Science from './components/Middle/Science';
+import Map from './components/Contact/Map';
 
 function App() {
   return (
@@ -117,7 +118,7 @@ function App() {
             <Navbar/>
           </div>
           <div>
-            <Contact/>
+            <Map/>
             <Footer/>
           </div>
           </> }/>

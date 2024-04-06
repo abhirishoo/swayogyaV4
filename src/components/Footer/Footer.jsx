@@ -163,14 +163,14 @@ export default function FooterAdvancedExample() {
                         Explore the world of Swaknee Devices 
                     </div>
                      <div></div>   
-                <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2  ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+                <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white' type='submit'>
                  Book Now 
                 </button>
                 </div>
            
                     
                 {/* <!-- Links section --> */}
-                <div className="grid md:grid-cols-2 text-start ml-20 lg:grid-cols-4">
+                <div className="grid md:grid-cols-2 md:text-start md:ml-20 lg:grid-cols-4">
                     <div className="mb-6">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
@@ -209,7 +209,7 @@ export default function FooterAdvancedExample() {
                         </ul>
                     </div>
 
-                    <div className="mb-6 ml-20">
+                    <div className="mb-6 lg:ml-20">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none">

@@ -10,7 +10,7 @@ const BlogCard = ({img}) => {
   };
 
   return (
-    <div className="w-full lg:w-[80vh]  shadow-[rgba(0,_0,_0,_0.54)_0px_3px_8px] space-y-2 cursor-pointer hover:scale-105 transition duration-300 ease-in-out ">
+    <div className="w-full lg:w-[80vh]   space-y-2 cursor-pointer  transition duration-300 ease-in-out ">
       {isVideoPlaying ? (
         <ReactPlayer
           url="https://www.youtube.com/watch?v=IfQyVm8Kftc"
