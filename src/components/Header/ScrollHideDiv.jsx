@@ -26,7 +26,7 @@ const ScrollHideDiv = () => {
 
   return (
     <animated.div
-      className="hidden md:hiddden z-10 lg:block fixed lg:top-[21.9%]   bg-white w-full px-24  md:px-46  lg:pt-1   overflow-hidden"
+      className="hidden md:hiddden z-10 lg:block fixed lg:top-[23.5%]   bg-white w-full px-24  md:px-46  lg:pt-1   overflow-hidden"
       style={{
         height: springProps.height,
         boxShadow: '0px 0px 10px rgba(0, 0, 0, 1.9)' // Added box-shadow CSS property

@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className='hidden lg:block '>
 
-    <div className=' overflow-hidden z-10 fixed top-[6%] bg-white w-full  lg:py-8 font-bold text-[#0288D1] justify-between  lg:px-60 flex text-lg  '>
+    <div className=' overflow-hidden z-10 fixed top-[6%] bg-white w-full  lg:py-8 font-bold text-[#0288D1] justify-between  lg:px-60 flex text-sm  '>
       <div className='w-16 -mt-5 flex-row gap-4'>
         <img src={CompanyLogo} alt="CompanyLogo" />
       </div>
@@ -177,7 +177,7 @@ const Navbar = () => {
             <Link to="/product"> Products </Link>
         {hoveredItem === 'product' && (
           <div>
-            <div className='bg-[#3362C2] relative rounded-md w-full h-1'></div>
+            <div className='bg-[#3362C2] relat  ive rounded-md w-full h-1'></div>
             <div className='fixed mt-3 left-0 w-full bg-[#3362C2] h-60 text-white px-[20vw] py-[5vh]'>
             <div className='grid grid-cols-3 gap-10'> 
                

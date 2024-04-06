@@ -1,5 +1,5 @@
 import{ useState, useEffect } from 'react';
-import banner5 from '../../assets/banner5.jpg';
+import banner5 from '../../assets/4.jpg';
 import banner5mobile from '../../assets/banner5mobile.jpg';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
