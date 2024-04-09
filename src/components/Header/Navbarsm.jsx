@@ -33,7 +33,10 @@ const Navbarsm = () => {
               <Link to="/" onClick={toggleDrawer}>Home</Link>
             </li>
             <li>
-              <Link to="/about" onClick={toggleDrawer}>About</Link>
+              <Link to="/aboutus" onClick={toggleDrawer}>About Us</Link>
+            </li>
+            <li>
+              <Link to="/aboutteam" onClick={toggleDrawer}>About Team</Link>
             </li>
             <li>
               <Link to="/services" onClick={toggleDrawer}>Services</Link>
@@ -49,6 +52,9 @@ const Navbarsm = () => {
             </li>
             <li>
               <Link to="/contactus" onClick={toggleDrawer}>Contact Us</Link>
+            </li>
+            <li>
+              <Link to="/booknow" onClick={toggleDrawer}>Book Now</Link>
             </li>
           </ul>
         </div>

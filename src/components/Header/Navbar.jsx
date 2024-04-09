@@ -183,7 +183,7 @@ const Navbar = () => {
               Book Now
             </button>
           </Link> </TERipple>
-        </div>
+        </div>  
       </div>
     </div>
   );
