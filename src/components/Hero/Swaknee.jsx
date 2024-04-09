@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 const Swaknee = () => {
   return (
     <div className='  lg:-mt-12 '>
-    <hr className='  border-[1.5px] bg-black' />
+    {/* <hr className='  border-[1.5px] bg-black' /> */}
         
-      <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]  mt-10 md:mt-16 font-bold text-[#C2185B] text-3xl lg:text-5xl tracking-tight'>
+      <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]  mt-10 md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
         Swaknee
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 w-[90%] md:w-[80%]  md:ml-[11%] ml-5 h-[50%] md:h-[53.6vh] shadow-lg'>

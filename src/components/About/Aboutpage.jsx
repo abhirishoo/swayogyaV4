@@ -8,7 +8,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Aboutpage = () => {
   return (
     <div>
-      <div className="lg:mt-[22vh] mt-[12vh] bg-[#C2185B] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288D1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
         About Us
       </div>
       <div className='h-screen w-full lg:w-[50%] mx-auto mt-10'>

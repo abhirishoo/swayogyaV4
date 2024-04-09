@@ -12,7 +12,7 @@ const Partners = () => {
   return (
 
     <div className=' gap-[40px] mt-7 '>
-           <div className='lg:text-5xl  text-xl text-[#F57C00] mb-10 font-semibold  text-center  md:px-20 '>
+           <div className='lg:text-5xl  text-xl text-[#0288D1] mb-10 font-semibold  text-center  md:px-20 '>
 
                 Our Collaborators
            <Marquee speed={100} gradient={true} className="mt-10">

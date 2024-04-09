@@ -42,12 +42,12 @@ const Navbar = () => {
         </div>
         <div className='flex mt-5 lg:gap-10 gap-2'>
           <div
-            className={`cursor-pointer relative ${hoveredItem === 'home' ? 'text-[#F57C00]' : 'text-[#0288D1]'}`}
+            className='cursor-pointer relative '
             onMouseEnter={() => handleMouseEnter('home')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/"> Home </Link>
             {hoveredItem === 'home' && (
-              <div className={`fixed mt-5 left-0 w-full bg-[#F57C00] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'home' ? 'fade-in' : 'fade-out'}`}>
+              <div className={`fixed mt-5 left-0 w-full bg-[#0288D1] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'home' ? 'fade-in' : 'fade-out'}`}>
                 <div className='grid grid-cols-4 gap-10'> 
                   <div className='grid grid-row-4 '>
                           <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className=' hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
@@ -88,12 +88,12 @@ const Navbar = () => {
             )}
           </div>
           <div
-            className={`hover:text-[#C2185B] cursor-pointer relative ${hoveredItem === 'about' ? 'text-[#C2185B]' : 'text-[#0288D1]'}`}
+            className="cursor-pointer relative"
             onMouseEnter={() => handleMouseEnter('about')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/aboutus"> About </Link>
             {hoveredItem === 'about' && (
-                 <div className={`fixed mt-5 left-0 w-full bg-[#C2185B] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'about' ? 'fade-in' : 'fade-out'}`}>
+                 <div className={`fixed mt-5 left-0 w-full bg-[#0288D1] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'about' ? 'fade-in' : 'fade-out'}`}>
                 <div className='grid grid-cols-2'>
                   
                   <div className='flex flex-col gap-2'>
@@ -117,12 +117,12 @@ const Navbar = () => {
             )}
           </div>
           <div
-            className={`hover:text-[#512DA8] cursor-pointer relative ${hoveredItem === 'services' ? 'text-[#512DA8]' : 'text-[#0288D1]'}`}
+            className=" cursor-pointer relative"
             onMouseEnter={() => handleMouseEnter('services')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/services"> Services </Link>
             {hoveredItem === 'services' && (
-                  <div className={`fixed mt-5 left-0 w-full bg-[#512DA8] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'services' ? 'fade-in' : 'fade-out'}`}>
+                  <div className={`fixed mt-5 left-0 w-full bg-[#0288D1] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'services' ? 'fade-in' : 'fade-out'}`}>
                 <div className='grid grid-cols-2'>
                   <div className='grid grid-row-4 gap-2'>
                   <Link to="/services">
@@ -156,7 +156,7 @@ const Navbar = () => {
             )}
           </div>
           <div
-            className={`hover:text-[#512DA8] cursor-pointer relative ${hoveredItem === 'research' ? 'text-[#512DA8]' : 'text-[#0288D1]'}`}
+            className="cursor-pointer relative"
             onMouseEnter={() => handleMouseEnter('research')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/research"> Research </Link>
@@ -179,7 +179,7 @@ const Navbar = () => {
         </div>
         <div className='mt-3'>
         <TERipple rippleColor="light">  <Link to="/booknow">
-            <button className='hover:bg-[#212ea0] bg-[#f57c00] lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+            <button className='hover:bg-[#212ea0] bg-[#0288D1] lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
             </button>
           </Link> </TERipple>

@@ -26,6 +26,7 @@ import Career from './components/Career/Career';
 import Aboutpage from './components/About/Aboutpage';
 import Aboutteam from './components/About/Aboutteam';
 import Navbarsm from './components/Header/Navbarsm';
+import Whyswaknee from './components/Middle/Whyswaknee';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
             element={
               <>
                 <div id="Hero">
-                  <Background />
+                   <Background />
                   <Navbarsm/>
                   <BlueStrip />
                   <Navbar />
@@ -45,11 +46,12 @@ function App() {
                 </div>
                 <div id="MainContent">
                   <AboutUs />
-                  <Ticks />
+                  {/* <Ticks /> */}
                   <Swaknee />
                   <Clinical />
                   <Steps />
                   <Science/>
+                  <Whyswaknee/>
                   <Services />
                 </div>
                 <div id="ContactUs">
