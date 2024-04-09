@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Services = () => {
   return (
     <div>
-         <div className='mb-1 md:mb-5 ml-8 md:ml-[13%] lg:mt-[80%] mt-10 md:mt-16 font-bold text-[#F57C00] text-3xl lg:text-3xl tracking-tight'>
+         <div className='mb-1 md:mb-5 ml-8 md:ml-[13%]  mt-10 md:mt-16 font-bold text-[#F57C00] text-3xl lg:text-3xl tracking-tight'>
         Our Services
       </div>
     <div className="flex flex-wrap justify-center  md:px-[12%]">

@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const Science = () => {
   return (
     <div className=''>
-      <div className='mb-1 md:mb-5 ml-8 md:ml-[12%] lg:mt-[80%] mt-10 md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
+      <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]  mt-10 md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
         Science Behind Swaknee
       </div>
       <div className="px-5 md:px-8 lg:px-32">
