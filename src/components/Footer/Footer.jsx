@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { TEInput } from 'tw-elements-react';
 
 export default function FooterAdvancedExample() {
@@ -151,9 +152,9 @@ export default function FooterAdvancedExample() {
                         Explore the world of Swaknee Devices 
                     </div>
                      <div></div>   
-                <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white' type='submit'>
+               <Link to={"/booknow"}> <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white' type='submit'>
                  Book Now 
-                </button>
+                </button> </Link>
                 </div>
            
                     

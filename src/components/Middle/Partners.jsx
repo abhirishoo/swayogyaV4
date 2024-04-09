@@ -10,7 +10,8 @@ import img8 from "../../assets/marquee/startup.png"
 import img9 from "../../assets/marquee/tbi.png"
 const Partners = () => {
   return (
-    <div className=' gap-[40px] mt-20 '>
+
+    <div className=' gap-[40px] mt-7 '>
            <div className='text-5xl  text-[#F57C00] mb-10 font-semibold  text-center  md:px-20 '>
 
                 Our Collaborators
@@ -31,6 +32,7 @@ const Partners = () => {
 
     </div>
         </div>
+
   )
 }
 

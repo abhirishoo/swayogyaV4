@@ -23,13 +23,14 @@ const Producthero = () => {
         slidesToScroll: 1
       };
   return (
-    <div className='min-h-screen  lg:mt-[17vh]  px-[15vh] grid grid-cols-2 '>
+    <div>
+    <div className="lg:mt-[22vh] mt-[12vh]  bg-[#02569C] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+    Product
+     </div>
+    <div className='min-h-screen  lg:mt-[0vh]  px-[15vh] grid grid-cols-2 '>
         <div className='p-10 mt-6 rounded-md'>
-          {/* <div className='shadow-2xl'>
-
-            <img className='shadow-2xl border rounded-md' src={product1} alt="" />
-          </div> */}
-          <div className="mt-10 lg:mt-0 w-full z-0  h-50 p-2 shadow-[rgba(0,_0,_0,_0.58)_0px_3px_8px]  rounded-lg transition duration-300 ease-in-out lg:relative ">
+        
+          <div className="mt-10 lg:mt-0 w-full z-0  h-50    rounded-lg transition duration-300 ease-in-out lg:relative ">
           <img
             className=" w-full rounded-lg"
             src={product1}
@@ -119,6 +120,7 @@ const Producthero = () => {
          </div>
        
         </div>
+          </div>
   )
 }
 

@@ -70,7 +70,7 @@ const Services = () => {
         </div>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/3  p-4"> {/* Adjust width for different screen sizes */}
-        <div className="block  bg-white shadow-lg dark:bg-neutral-700">
+        <div className="block  bg-white shadow-lg ">
           <TERipple>
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
@@ -102,7 +102,7 @@ const Services = () => {
       
       {/* Add more card components as needed */}
     </div>
-    <hr className='md:my-20 my-2 border-[1.5px] bg-black' />
+    <hr className='md:my-5  border-[1.5px] bg-black' />
     
     </div>
   );

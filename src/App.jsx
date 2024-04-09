@@ -19,6 +19,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Science from './components/Middle/Science';
 import Map from './components/Contact/Map';
 import Producthero from './components/Product/Producthero';
+import BookNow from './components/Contact/BookNow';
+import Research from './components/Research/Research';
+import Servicespage from './components/Services/Servicespage';
+import Career from './components/Career/Career';
+import Aboutpage from './components/About/Aboutpage';
+import Aboutteam from './components/About/Aboutteam';
+import Navbarsm from './components/Header/Navbarsm';
 
 function App() {
   return (
@@ -31,9 +38,10 @@ function App() {
               <>
                 <div id="Hero">
                   <Background />
+                  <Navbarsm/>
                   <BlueStrip />
                   <Navbar />
-                  {/* <ScrollHideDiv />  */}
+                  {/* <ScrollHideDiv  />  */}
                 </div>
                 <div id="MainContent">
                   <AboutUs />
@@ -45,6 +53,7 @@ function App() {
                   <Services />
                 </div>
                 <div id="ContactUs">
+                  
                   <Partners />
                   <FAQs />
                   <Testimonials />
@@ -62,6 +71,8 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
           </div>
           <div>
             <Contact/>
@@ -73,9 +84,37 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
           </div>
           <div>
-            <AboutUs/>
+            <Aboutpage/>
+            <Footer/>
+          </div>
+          </> }/>
+          <Route path="/aboutus" element={
+          <>
+          <div>
+            <BlueStrip/>
+            <Navbar/>
+            <Navbarsm/>
+
+          </div>
+          <div>
+            <Aboutpage/>
+            <Footer/>
+          </div>
+          </> }/>
+          <Route path="/aboutteam" element={
+          <>
+          <div>
+            <BlueStrip/>
+            <Navbar/>
+            <Navbarsm/>
+
+          </div>
+          <div>
+            <Aboutteam/>
             <Footer/>
           </div>
           </> }/>
@@ -84,9 +123,11 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
           </div>
           <div>
-           <Services/>
+           <Servicespage/>
             <Footer/>
           </div>
           </> }/>
@@ -95,9 +136,11 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
+            <Research/>
           </div>
           <div>
-            <Contact/>
             <Footer/>
           </div>
           </> }/>
@@ -106,9 +149,11 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
           </div>
           <div>
-            <Contact/>
+            <Career/>
             <Footer/>
           </div>
           </> }/>
@@ -117,6 +162,8 @@ function App() {
           <div>
             <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+
           </div>
           <div>
             <Map/>
@@ -140,11 +187,22 @@ function App() {
             <div>
               <BlueStrip/>
             <Navbar/>
+            <Navbarsm/>
+            
             <Producthero/>
             <Footer/>
           </div>
           </> } />
-
+          
+          <Route path='/booknow' element={
+            <>
+            <BlueStrip/>
+            <Navbar/>
+            <Navbarsm/>
+            <BookNow/>
+            <Footer/>
+            </>
+          }/>
         </Routes>
       </BrowserRouter>
     </>

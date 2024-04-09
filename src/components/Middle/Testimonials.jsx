@@ -119,7 +119,7 @@ const Testimonials = () => {
       </div>
 
     </div>
-    <hr className='md:my-20 my-2 border-[1.5px] bg-black' />
+    <hr className=' my-4 border-[1.5px] bg-black' />
     </div>
   );
 };
