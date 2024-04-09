@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <div className='min-h-screen px-5 lg:px-40 '>
-      <div className='flex justify-center text-[#00897b] text-5xl font-bold'>Get in Touch</div>
+      <div className='flex justify-center text-[#00897b] lg:text-5xl text-2xl font-bold'>Get in Touch</div>
       <div className='flex justify-center text-[#00897b] font-semibold'>CONTACT US</div>
       <div className='flex flex-col lg:flex-row mt-10 lg:mt-20'>
         <div className='lg:w-1/2'>

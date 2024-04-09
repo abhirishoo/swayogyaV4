@@ -70,7 +70,7 @@
     }, [currentVideoIndex]);
 
     return (
-      <div className='text-4xl  text-[#000F38] lg:mt-10 mt-20 text-center p-4 font-bold'>
+      <div className='text-4xl  text-[#000F38] lg:mt-10 mt-10 text-center p-4 font-bold'>
         How to use?
         <div className='md:h-300px md:px-10 mt-10 grid-cols-3 flex gap-1 flex-col lg:flex-row md:ml-32 overflow-hidden'>
           {[vedio1, vedio2, vedio3].map((videoSrc, index) => (
