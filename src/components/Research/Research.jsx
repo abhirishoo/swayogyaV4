@@ -3,7 +3,7 @@ import React from 'react';
 const Research = () => {
     return (
         <div>
-            <div className="lg:mt-[22vh] mt-[12vh] bg-[#512DA8] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+            <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288d1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
                 Research
             </div>
             <div className="h-auto lg:w-[40%] mx-auto lg:mt-10 p-4 mb-10 md:px-0">

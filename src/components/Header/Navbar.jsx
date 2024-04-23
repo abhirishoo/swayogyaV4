@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { MdKeyboardArrowRight } from "react-icons/md";
 import CompanyLogo from "../../assets/CompanyLogo.png";
 import navbar1 from "../../assets/navbarphotos/navbar1.jpg";
@@ -8,6 +7,7 @@ import navbar3 from "../../assets/navbarphotos/navbar3.jpg";
 import navbar4 from "../../assets/navbarphotos/navbar4.jpg";
 import navbar6 from "../../assets/navbarphotos/navbar6.jpg";
 import navbar10 from "../../assets/navbarphotos/navbar10.jpg";
+import { Link } from 'react-router-dom';
 import { TEInput, TERipple } from "tw-elements-react";
 import { TETextarea } from "tw-elements-react";
 const Navbar = () => {
@@ -30,16 +30,22 @@ const Navbar = () => {
     setTimeoutId(id);
   };
 
-  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
 
   return (
     <div className='hidden md:block'>
-      <div className='overflow-hidden z-10 fixed top-[6%] shadow-xl bg-white w-full lg:py-6 font-bold text-[#0288D1] justify-between lg:px-28 md:px-28 flex lg:text-lg md:text-sm'>
-        <div className='lg:w-16 w-12 -mt-4 flex-row lg:gap-4'>
-          <Link to='/'>
-            <img src={CompanyLogo} alt="CompanyLogo" />
-          </Link>
-        </div>
+        <div className='overflow-hidden z-10 fixed top-[6%] shadow-xl bg-white w-full lg:py-6 font-bold text-[#0288D1] justify-between lg:px-28 md:px-28 flex lg:text-lg md:text-sm'>
+          <div className='lg:w-16 w-12 -mt-4 flex-row lg:gap-4'>
+            <Link to='/' onClick={scrollToTop}  >
+              <img src={CompanyLogo} alt="CompanyLogo" />
+            </Link>
+          </div>
         <div className='flex mt-5 lg:gap-10 gap-2'>
           <div
             className='cursor-pointer relative '
@@ -155,20 +161,20 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <div
+          {/* <div
             className="cursor-pointer relative"
             onMouseEnter={() => handleMouseEnter('research')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/research"> Research </Link>
-          </div>
+          </div> */}
           <div
-            className={`hover:text-[#00897b] cursor-pointer relative ${hoveredItem === 'career' ? 'text-[#00897b]' : 'text-[#0288D1]'}`}
+            className={`text-[#0288D1] cursor-pointer relative ${hoveredItem === 'career' }`}
             onMouseEnter={() => handleMouseEnter('career')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/career"> Career </Link>
           </div>
           <div
-            className={`hover:text-[#3362C2] cursor-pointer relative ${hoveredItem === 'product' ? 'text-[#3362C2]' : 'text-[#0288D1]'}`}
+            className={` cursor-pointer relative ${hoveredItem === 'product' }`}
             onMouseEnter={() => handleMouseEnter('product')}
             onMouseLeave={handleMouseLeave}>
             <Link to="/product"> Products </Link>
@@ -179,7 +185,7 @@ const Navbar = () => {
         </div>
         <div className='mt-3'>
         <TERipple rippleColor="light">  <Link to="/booknow">
-            <button className='hover:bg-[#212ea0] bg-[#0288D1] lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+            <button className='hover:bg-[#f57b00d4] bg-[#F57C00] lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
             </button>
           </Link> </TERipple>

@@ -1,6 +1,10 @@
 import React from 'react';
 import { TERipple } from 'tw-elements-react';
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { RiMicroscopeLine } from "react-icons/ri";
+import { MdHealthAndSafety } from "react-icons/md";
+import { FaBookReader } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Services = () => {
   return (
     <div>
@@ -10,19 +14,12 @@ const Services = () => {
     <div className="flex flex-wrap justify-center  md:px-[12%]">
 
       <div className="w-full sm:w-1/2 md:w-1/3  p-4"> {/* Adjust width for different screen sizes */}
-        <div className="block  bg-white shadow-lg dark:bg-neutral-700">
-          <TERipple rippleColor='Light'>
+        <div className="  bg-white shadow-lg items-center flex flex-col dark:bg-neutral-700">
+        <Link to={"/services"}>  <TERipple rippleColor='Light'>
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-md"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/186.jpg"
-                alt=""
-              />
-              <a href="#!">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a>
+                <MdHealthAndSafety size={65} className="w-full text-[#0288D1]  " />
             </div>
-          </TERipple >
+          </TERipple > </Link>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-bold leading-tight text-neutral-800 dark:text-neutral-50">
             PEMF Therapy Devices
@@ -40,19 +37,12 @@ const Services = () => {
         </div>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/3  p-4"> {/* Adjust width for different screen sizes */}
-        <div className="block  bg-white shadow-lg dark:bg-neutral-700">
-          <TERipple rippleColor='Light'>
+        <div className="  bg-white shadow-lg items-center flex flex-col dark:bg-neutral-700">
+        <Link to={"/services"}><TERipple rippleColor='Light'>
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-md"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/186.jpg"
-                alt=""
-              />
-              <a href="#!">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a>
+                < RiMicroscopeLine size={65} className="w-full text-[#0288D1]  " />
             </div>
-          </TERipple>
+          </TERipple ></Link>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-bold leading-tight text-neutral-800 dark:text-neutral-50">
             Rehabilitation Services
@@ -70,19 +60,12 @@ const Services = () => {
         </div>
       </div>
       <div className="w-full sm:w-1/2 md:w-1/3  p-4"> {/* Adjust width for different screen sizes */}
-        <div className="block  bg-white shadow-lg ">
-          <TERipple>
+        <div className="  bg-white shadow-lg items-center flex flex-col dark:bg-neutral-700">
+        <Link to={"/services"}>   <TERipple rippleColor='Light'>
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <img
-                className="rounded-t-md"
-                src="https://tecdn.b-cdn.net/img/new/standard/nature/186.jpg"
-                alt=""
-              />
-              <a href="#!">
-                <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
-              </a>
+                <FaBookReader size={65} className="w-full text-[#0288D1]  " />
             </div>
-          </TERipple>
+          </TERipple > </Link>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-bold leading-tight text-neutral-800 dark:text-neutral-50">
             Educational Resources
@@ -91,7 +74,7 @@ const Services = () => {
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </p>
             <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
-          <div className=' flex px-6 md:ml-[55%]  ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
+          <div className=' flex px-6 md:ml-[55%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
             tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>Explore 
             </div>
             <span className='  lg:-ml-[10%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
@@ -99,6 +82,8 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+  
       
       {/* Add more card components as needed */}
     </div>

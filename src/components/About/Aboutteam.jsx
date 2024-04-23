@@ -3,22 +3,22 @@ import React from 'react';
 const Aboutteam = () => {
   // Define an array of board of directors with their details
   const boardOfDirectors = [
-    { name: 'Pooja k Jha', role: 'Founder & CEO ', avatarIndex: 1 },
-    { name: 'Ankita Kumari', role: 'Director', avatarIndex: 2 },
-    { name: 'Dr Vikas Kumar, PhD', role: 'Chief Technology Officer', avatarIndex: 3 },
-    { name: 'Dr Jagganatha Sahoo,HOD, PMR, DEPT, AIIMS BBSR', role: 'Clinical / Collaborator', avatarIndex: 4 },
+    { name: 'Pooja k Jha', role: 'Founder & CEO ', avatarSrc:"" },
+    { name: 'Ankita Kumari', role: 'Director', avatarSrc: '/avatars/avatar2.jpg' },
+    { name: 'Dr Vikas Kumar, PhD', role: 'Chief Technology Officer', avatarSrc: '/avatars/avatar3.jpg' },
+    { name: 'Dr Jagganatha Sahoo,HOD, PMR, DEPT, AIIMS BBSR', role: 'Clinical / Collaborator', avatarSrc: '/avatars/avatar4.jpg' },
   ];
 
   // Define Manoh Kumar Parida in the Research and Development Unit
   const researchAndDevelopment = [
-    { name: 'Dr Manoh K Parida', role: 'Technical Lead', avatarIndex: 5 },
+    { name: 'Dr Manoh K Parida', role: 'Technical Lead', avatarSrc: '/avatars/avatar5.jpg' },
   ];
 
   // Define an array of advisors with their details
   const advisors = [
-    { name: 'Dr. Debashish Jena', role: 'Senior Resident & Incharge PMR, IGKC hospital, BBSR', avatarIndex: 6 },
-    { name: 'Mrs Madhu Chanda', role: 'Charter Accountant, BBSR', avatarIndex: 7 },
-    { name: 'Mr Asutosh Nanda', role: 'IP & Legal Advisor, BBSR', avatarIndex: 8 },
+    { name: 'Dr. Debashish Jena', role: 'Senior Resident & Incharge PMR, IGKC hospital, BBSR', avatarSrc: '/avatars/avatar6.jpg' },
+    { name: 'Mrs Madhu Chanda', role: 'Charter Accountant, BBSR', avatarSrc: '/avatars/avatar7.jpg' },
+    { name: 'Mr Asutosh Nanda', role: 'IP & Legal Advisor, BBSR', avatarSrc: '/avatars/avatar8.jpg' },
   ];
 
   return (
@@ -40,7 +40,7 @@ const Aboutteam = () => {
                     <div className="flex justify-center">
                       <div className="flex justify-center -mt-[75px]">
                         <img
-                          src={`https://mdbcdn.b-cdn.net/img/new/avatars/${member.avatarIndex}.jpg`}
+                          src={member.avatarSrc}
                           className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                           alt="Avatar"
                         />
@@ -72,7 +72,7 @@ const Aboutteam = () => {
                     <div className="flex justify-center">
                       <div className="flex justify-center -mt-[75px]">
                         <img
-                          src={`https://mdbcdn.b-cdn.net/img/new/avatars/${member.avatarIndex}.jpg`}
+                          src={member.avatarSrc}
                           className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                           alt="Avatar"
                         />
@@ -104,7 +104,7 @@ const Aboutteam = () => {
                     <div className="flex justify-center">
                       <div className="flex justify-center -mt-[75px]">
                         <img
-                          src={`https://mdbcdn.b-cdn.net/img/new/avatars/${member.avatarIndex}.jpg`}
+                          src={member.avatarSrc}
                           className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                           alt="Avatar"
                         />

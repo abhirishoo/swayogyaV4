@@ -152,14 +152,15 @@ export default function FooterAdvancedExample() {
                         Explore the world of Swaknee Devices 
                     </div>
                      <div></div>   
-               <Link to={"/booknow"}> <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white' type='submit'>
+               <Link to={"/booknow"}> <button className='   bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white' type='submit'>
                  Book Now 
                 </button> </Link>
                 </div>
            
                     
                 {/* <!-- Links section --> */}
-                <div className="grid md:grid-cols-2 md:text-start md:ml-20 lg:grid-cols-4">
+                <div className="grid md:grid-cols-2 md:text-center md:-ml-30 gap-[35vh] lg:grid-cols-3">
+                    <Link to="/">
                     <div className="mb-6">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
@@ -178,7 +179,8 @@ export default function FooterAdvancedExample() {
                             </li>
                         </ul>
                     </div>
-
+                    </Link>
+                            <Link to="/product">        
                     <div className="mb-6">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
@@ -197,44 +199,28 @@ export default function FooterAdvancedExample() {
                             </li>
                         </ul>
                     </div>
+                    </Link>
 
-                    <div className="mb-6 lg:ml-20">
+                    <div className="mb-6 lg:ml-0">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none">
                             <li>
-                                <a className="text-white">Research</a>
+                                <a className="text-white"> <Link to="/career">Career </Link></a>
                             </li>
                             <li>
-                                <a className="text-white">How PEMF works</a>
+                                <a target='_blank' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=pemf+on+osteoarthritis&btnG=&oq=PEMF+on+' className="text-white">How PEMF works</a>
                             </li>
                             <li>
-                                <a className="text-white">Science behind Swaknee</a>
+                                <a className="text-white"> <Link to="/">Science behind Swaknee </Link></a>
                             </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
+                                {/* <li>
+                                    <a className="text-white">Link 4</a>
+                                </li> */}
                         </ul>
                     </div>
 
-                    <div className="mb-6">
-                        {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
-
-                        <ul className="mb-0 list-none">
-                            <li>
-                                <a className="text-white">Link 1</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 2</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 3</a>
-                            </li>
-                            <li>
-                                <a className="text-white">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div>
 

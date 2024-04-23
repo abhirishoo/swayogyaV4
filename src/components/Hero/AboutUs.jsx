@@ -1,11 +1,8 @@
-import dochand from '../../assets/marquee/SWA-KNEE - _Forget Pain Walk and Run Again” (online-video-cutter.com).mp4';
-import dochandvedio from '../../assets/marquee/docHands.mp4';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/marquee/SWA-KNEE - _Forget Pain Walk and Run Again” (online-video-cutter.com).mp4';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const AboutUs = () => {
-
-    
-
   return (
     <div className='lg:-mt-5'>
       <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]   md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
@@ -22,7 +19,7 @@ const AboutUs = () => {
           </div>
           <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
           <div className=' flex px-5 md:ml-[75%] md:mt-[11%]  font-bold text-[#0288D1] text-[0.1vw] lg:text-[1vw] 
-            tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>About Us 
+            tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '> <Link to={"/aboutus"}>Know more </Link>
             </div>
             <span className='  -ml-[3%] md:mt-[11%] text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'  /></span>
           </div>
@@ -35,7 +32,7 @@ const AboutUs = () => {
             autoPlay
             muted
             className=" mt-10 rounded-lg"
-            src={dochand}
+            src={logo}
             alt="video"
           />
         </div>

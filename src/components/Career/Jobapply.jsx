@@ -4,8 +4,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { TEInput, TERipple } from "tw-elements-react";
 import { TETextarea } from "tw-elements-react";
-
-const BookNow = () => {
+import { Link } from 'react-router-dom';
+import careerimg from "../../assets/aboutus/careerimg.png"
+const Jobapply = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -50,48 +51,52 @@ const BookNow = () => {
   };
 
   return (
-    <div className=''>
-      <div className="mt-[22vh] bg-[#f57c00] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
-    Book Now
-     </div>
-    <div className=' shadow-xl w-[70%] mx-auto mb-10 mt-[5vh]  '>
-
-    <div className='container mx-auto px-5 lg:px-10 py-10'>
-      <div className='max-w-2xl mx-auto'>
+    <div className='flex flex-cols-2'>
+    <div className='container  px-5  '>
+      <div className='max-w-2xl ml-[20vh]'>
         <form ref={formRef} onSubmit={handleSubmit}>
-          <div className='mb-6'>
-            <label htmlFor="service" className="block mb-2 text-sm font-medium text-gray-900 ">Select an option</label>
+        <div className='mb-4'>Your name</div>
+            <TEInput
+                type="text"
+                name='name'
+                id="exampleFormControlInput1"
+                label="Full Name"
+                value={formData.name}
+                onChange={handleChange} 
+          ></TEInput>
+        
+        <div className='mt-4 mb-2'>Your Email</div>
+           
+           <TEInput
+     type="email"
+     id="exampleFormControlInputEmail"
+     label="Email input"
+     name='email'
+     value={formData.email}
+     onChange={handleChange}
+   ></TEInput>
+     
+          
+     <div className='mt-4 mb-2'>Phone Number</div>
+            <TEInput
+      type="tel"
+      id="exampleFormControlInputTel"
+      label="Phone No."
+      name='phone'
+      value={formData.phone}
+      onChange={handleChange}
+    ></TEInput>
+          <div className='mb-6 mt-4'>
+            <div>Position Applied For</div>
             <select id="service" name="service" className=" border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" onChange={handleChange}>
-              <option value="" disabled selected className='text-gray-400'>Choose a Service</option>
+              <option value="" disabled selected className='text-gray-400'></option>
               <option value="Swaknee Module">Swaknee Module</option>
               <option value="Electromagnetics/Knee Brace">Electromagnetics/Knee Brace</option>
               <option value="Educational Resources & Training">Educational Resources & Training</option>
             </select>
           </div>
           <div className='mb-4'>
-            <label htmlFor="dateTime" className="block mb-2 text-sm font-medium text-gray-900 ">Select Date and Time</label>
-            <input
-              type="datetime-local"
-              id="dateTime"
-              name="dateTime"
-              value={formData.dateTime}
-              onChange={handleChange}
-              className="bg-white border border-gray-300 text-gray-900 text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              />
-          </div>
-          <div className='mb-4'>
-            <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 ">Full Name</label>
-            <TEInput
-              type="text"
-              name='name'
-              id="name"
-              value={formData.name}
-              onChange={handleChange}
-              className='border border-gray-300 p-2.5 rounded-lg w-full'
-              />
-          </div>
-          <div className='mb-4'>
-            <label htmlFor="disease" className="block mb-2 text-sm font-medium text-gray-900 ">Pre Diseases</label>
+            <label htmlFor="disease"  >Years of Relevant Experience</label>
             <TEInput
               type="text"
               name='disease'
@@ -102,43 +107,35 @@ const BookNow = () => {
               />
           </div>
           <div className='mb-4'>
-            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 ">Your Email</label>
+            <label htmlFor="disease" >Upload CV</label>
             <TEInput
-              type="email"
-              id="email"
-              name='email'
-              value={formData.email}
+              type="file"
+              name='disease'
+              id="disease"
+              value={formData.disease}
+              onChange={handleChange}
+              className='border border-gray-100 p-2.5 rounded-lg w-full'
+              />
+          </div>
+          <div className='mb-4'>
+            <label htmlFor="disease" >Upload Cover Letter</label>
+            <TEInput
+              type="file"
+              name='disease'
+              id="disease"
+              value={formData.disease}
               onChange={handleChange}
               className='border border-gray-300 p-2.5 rounded-lg w-full'
               />
           </div>
-          <div className='mb-4'>
-            <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 ">Phone Number</label>
-            <TEInput
-              type="tel"
-              id="phone"
-              name='phone'
-              value={formData.phone}
-              onChange={handleChange}
-              className='border border-gray-300 p-2.5 rounded-lg w-full'
-              />
-          </div>
-          <div className='mb-4'>
-            <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">Write Your message here</label>
-            <TETextarea
-              id="message"
-              name='message'
-              value={formData.message}
-              onChange={handleChange}
-              rows={4}
-              className='border border-gray-300 p-2.5 rounded-lg w-full resize-none'
-              />
-          </div>
+         
+    
+        
        
-          <div className="flex justify-center w-full">
+          <div className="flex justify-center p-5 w-full">
             <TERipple rippleColor="light">
-              <button className=' bg-[#00897b] px-8 py-3 rounded-full text-white' type='submit'>
-                Book Now
+              <button className='bg-[#35A0DA] px-8 py-3 rounded-full text-white' type='submit'>
+              Submit Application
               </button>
             </TERipple>
           </div>
@@ -146,9 +143,11 @@ const BookNow = () => {
       </div>
       <ToastContainer position='bottom-right' autoClose={3000} />
     </div>
+    <div className='mx-[20vh] w-[90vh]'><img src={careerimg} alt="" />
+    </div>
               </div>
-              </div>
+        
   );
 };
 
-export default BookNow;
+export default Jobapply;

@@ -63,16 +63,16 @@ const Contact = () => {
           </div>
           <div className='mt-5 flex flex-col gap-3 items-start'>
             <div className='flex items-center'>
-              <BsFillEnvelopeFill size={30} color='#00897b' />
+              <BsFillEnvelopeFill size={30} color='#0288d1' />
               <span className='ml-2'>swayogya19@gmail.com</span>
             </div>
             <div className='flex items-center mt-3 lg:mt-0'>
-              <CgPhone size={30} color='#00897b' />
+              <CgPhone size={30} color='#0288d1' />
               <span className='ml-2'>+91 9079938655</span>
             </div>
           </div>
           <div className='mt-5 flex items-start gap-3'>
-            <FaLocationDot size={30} color='#00897b' />
+            <FaLocationDot size={30} color='#0288d1' />
             <div>
               Swayogya Rehab Solutions Pvt Ltd, <br />
               Room No 206 (C), School of Chemical Technology, <br />
@@ -128,7 +128,7 @@ const Contact = () => {
             <div className='mb-10 lg:mb-0'>
              <TERipple rippleColor="light"> 
               
-            <button className='  hover:bg-[#212ea0] bg-[#00897b]  px-5 py-3 ml-32 lg:ml-0 rounded-full  text-white' type='submit'>
+            <button className='  hover:bg-[#0289d1be] bg-[#0288d1]  px-5 py-3 ml-32 lg:ml-0 rounded-full  text-white' type='submit'>
               Submit now 
             </button>
             </TERipple>
