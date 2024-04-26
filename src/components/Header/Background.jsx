@@ -1,5 +1,6 @@
 import{ useState, useEffect } from 'react';
 import banner5 from '../../assets/4.jpg';
+import banner4 from '../../assets/5mobile.png';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Background = () => {
@@ -21,7 +22,9 @@ const Background = () => {
   return (
     <div className='relative'>
       {/* Background Image */}
-      <div className=' h-[81vh] bg-cover md:mt-[20%] lg:mt-[9%]' style={{ backgroundImage: `url(${banner5})` }}>
+      <div className='hidden lg:block h-[81vh] bg-cover md:mt-[20%] lg:mt-[9%]' style={{ backgroundImage: `url(${banner5})` }}>
+      </div>
+      <div className='block lg:hidden h-[51vh] bg-cover mt-[8vh] ' style={{ backgroundImage: `url(${banner4})` }}>
       </div>
       {/* Circle */}
       {/* <div 

@@ -8,7 +8,7 @@ import { TETextarea } from "tw-elements-react";
 const Servicespage = () => {
     return (
         <div>
-            <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288d1] h-[12vh]  lg:px-[20vh] text-white font-bold lg:text-5xl text-4xl opacity-80 p-5">
+            <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288d1] lg:h-[12vh] h-[10vh]  lg:px-[20vh] text-white font-bold text-5xl  opacity-80 p-5">
                 Services
             </div>
 

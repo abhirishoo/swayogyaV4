@@ -3,7 +3,7 @@ import React from 'react';
 const Map = () => {
   return (
     <div>
-      <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288D1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5">
+      <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288D1] lg:h-[12vh] h-[10vh] lg:px-[20vh] text-white font-bold text-5xl opacity-80 p-5">
         Contact Us
       </div>
       <div className="flex flex-col lg:flex-row lg:py-[10vh]">

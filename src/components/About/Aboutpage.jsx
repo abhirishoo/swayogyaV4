@@ -9,7 +9,7 @@ import swakneeimg from "../../assets/aboutus/swakneeimg.png"
 const Aboutpage = () => {
   return (
     <div>
-      <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288D1] lg:h-[12vh] h-[8vh] px-[10vh] w-full text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288D1] lg:h-[12vh] h-[10vh] px-[10vh] w-full text-white font-bold text-5xl  opacity-80 p-5 ">
         <div>About Us</div>
       </div>
       <div className='lg:h-[39vh] w-full lg:flex  lg:flex-cols-2 lg:w-[70%] mx-auto mt-10'>

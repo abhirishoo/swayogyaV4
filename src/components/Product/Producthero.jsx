@@ -24,7 +24,7 @@ const Producthero = () => {
       };
   return (
     <div>
-    <div className="lg:mt-[22vh] mt-[12vh] overflow-hidden  bg-[#0288d1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+    <div className="lg:mt-[22vh] mt-[8vh] overflow-hidden  bg-[#0288d1] lg:h-[12vh] h-[10vh] lg:px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
     Product
      </div>
     <div className='lg:min-h-screen  lg:mt-[0vh]  lg:px-[15vh] lg:grid lg:grid-cols-2 '>
