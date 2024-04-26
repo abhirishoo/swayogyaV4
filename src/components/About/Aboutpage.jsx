@@ -9,7 +9,7 @@ import swakneeimg from "../../assets/aboutus/swakneeimg.png"
 const Aboutpage = () => {
   return (
     <div>
-      <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288D1] h-[12vh] px-[20vh] w-full text-white font-bold text-5xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288D1] lg:h-[12vh] h-[8vh] px-[10vh] w-full text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
         <div>About Us</div>
       </div>
       <div className='lg:h-[39vh] w-full lg:flex  lg:flex-cols-2 lg:w-[70%] mx-auto mt-10'>
@@ -34,12 +34,12 @@ const Aboutpage = () => {
                          </p>
           </div>
         </div>
-            <div className='lg:w-[400vh] w-[40vh] mx-auto lg:mx-0 mt-4 lg:mt-0 lg:ml-20 '><img src={swakneeimg} alt="" /></div>
+            <div className='lg:w-[400vh] w-[30vh] mx-auto lg:mx-0 mt-4 lg:mt-0 lg:ml-20 '><img src={swakneeimg} alt="" /></div>
         </div>
 
      
       <div className='px-10'>
-      <div className="shadow-xl grid grid-cols-1 mt-[45vh]   w-full lg:w-[40%] lg:mx-auto lg:mt-[10vh] h-[55vh] lg:h-[70vh] mb-10">
+      <div className="shadow-xl grid grid-cols-1 mt-[25vh]   w-full lg:w-[40%] lg:mx-auto lg:mt-[10vh] h-[40vh] lg:h-[70vh] mb-10">
         <div className=" ">
           <div className="rounded-md ">
             <video

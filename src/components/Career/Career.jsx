@@ -4,7 +4,7 @@ import Jobapply from "../Career/Jobapply";
 const Career = () => {
     return (
         <div>
-            <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288d1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+            <div className="lg:mt-[22vh] mt-[8vh] bg-[#0288d1] lg:h-[12vh] h-[10vh] lg:px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
                 Career
             </div>
             <div className="h-auto lg:w-[80%]   mx-auto lg:mt-10 p-4 lg:mb-10 md:px-0">

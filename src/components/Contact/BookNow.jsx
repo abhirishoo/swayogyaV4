@@ -51,7 +51,7 @@ const BookNow = () => {
 
   return (
     <div className=''>
-      <div className="lg:mt-[22vh] mt-[12vh] bg-[#f57c00] lg:h-[12vh] px-[20vh] text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[8vh] bg-[#f57c00] lg:h-[12vh] lg:px-[20vh] text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
     Book Now
      </div>
     <div className=' shadow-xl lg:w-[70%] w-[90%] mx-auto mb-10 mt-[5vh]  '>
