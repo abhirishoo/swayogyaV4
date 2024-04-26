@@ -9,11 +9,11 @@ import swakneeimg from "../../assets/aboutus/swakneeimg.png"
 const Aboutpage = () => {
   return (
     <div>
-      <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288D1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288D1] h-[12vh] px-[20vh] w-full text-white font-bold text-5xl opacity-80 p-5 ">
         <div>About Us</div>
       </div>
-      <div className='h-[39vh] w-full flex flex-cols-2 lg:w-[70%] mx-auto mt-10'>
-            <div className='w-[200vh] mr-12'><img src={CompanyLogo} alt="" /></div>
+      <div className='lg:h-[39vh] w-full lg:flex  lg:flex-cols-2 lg:w-[70%] mx-auto mt-10'>
+            <div className='lg:w-[200vh] w-[20vh] mx-auto lg:mx-0 lg:mr-12'><img src={CompanyLogo} alt="" /></div>
         <div className="shadow-xl grid grid-cols-1">
           <div className="mt-10 md:mt-0 px-5 md:px-8">
             <div className="font-bold text-xl mb-2"></div>
@@ -24,8 +24,8 @@ const Aboutpage = () => {
           </div>
         </div>
       </div>
-      <div className='h-[45vh] w-full flex flex-cols-1 ml-40  lg:w-[70%]  mt-20'>
-        <div className="shadow-xl  grid grid-cols-1 ">
+      <div className='h-[45vh] w-full lg:flex lg:flex-cols-1 lg:ml-40  lg:w-[70%]  mt-20'>
+        <div className="shadow-xl  lg:grid  lg:grid-cols-1 ">
           <div className="mt-10 md:mt-0 px-5 md:px-8">
             <div className="font-bold text-xl mb-2"></div>
             <p className="text-base md:text-lg">
@@ -34,12 +34,12 @@ const Aboutpage = () => {
                          </p>
           </div>
         </div>
-            <div className='w-[400vh] ml-20 '><img src={swakneeimg} alt="" /></div>
+            <div className='lg:w-[400vh] w-[40vh] mx-auto lg:mx-0 mt-4 lg:mt-0 lg:ml-20 '><img src={swakneeimg} alt="" /></div>
         </div>
 
      
-
-      <div className="shadow-xl grid grid-cols-1   w-full lg:w-[40%] mx-auto lg:mt-[10vh] h-[90vh] lg:h-[70vh] mb-10">
+      <div className='px-10'>
+      <div className="shadow-xl grid grid-cols-1 mt-[45vh]   w-full lg:w-[40%] lg:mx-auto lg:mt-[10vh] h-[55vh] lg:h-[70vh] mb-10">
         <div className=" ">
           <div className="rounded-md ">
             <video
@@ -48,7 +48,7 @@ const Aboutpage = () => {
               src={scienceminister}
               alt="Science Minister"
             />
-          </div>
+          </div > </div>
           <div className="p-6">
             <h5 className="mb-2 text-xl text-center font-bold leading-tight text-neutral-800">
               Appreciated by Science Minister

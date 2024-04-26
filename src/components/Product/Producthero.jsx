@@ -27,8 +27,8 @@ const Producthero = () => {
     <div className="lg:mt-[22vh] mt-[12vh] overflow-hidden  bg-[#0288d1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
     Product
      </div>
-    <div className='min-h-screen  lg:mt-[0vh]  px-[15vh] grid grid-cols-2 '>
-        <div className='p-10 mt-6 rounded-md'>
+    <div className='lg:min-h-screen  lg:mt-[0vh]  lg:px-[15vh] lg:grid lg:grid-cols-2 '>
+        <div className='lg:p-10 p-5 lg:mt-6 rounded-md'>
         
           <div className="mt-10 lg:mt-0 w-full z-0  h-50    rounded-lg transition duration-300 ease-in-out lg:relative ">
           <img
@@ -38,7 +38,7 @@ const Producthero = () => {
           />
         </div>
         </div>
-        <div className='p-10'>
+        <div className='lg:p-10 p-5'>
             <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Swaknee</div>
             <div className='font-semibold text-4xl  mb-3 text-[#02569C] tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
@@ -54,13 +54,13 @@ const Producthero = () => {
             <div>Minimal maintenance required.</div>
             <div>Compatible with our full line of exclusive accessories</div>
             <div>3-Year Limited Warranty</div>
-            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white w-[30%]' type='submit'>
+            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%] ' type='submit'>
                  Book Now 
                 </button>
 
             </div>
          </div>
-         <div className='p-10 '>
+         <div className='lg:p-10 p-5 '>
             <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Swaknee</div>
             <div className='font-semibold text-4xl text-[#02569C] mb-3 tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
@@ -76,17 +76,17 @@ const Producthero = () => {
             <div>Minimal maintenance required.</div>
             <div>Compatible with our full line of exclusive accessories</div>
             <div>3-Year Limited Warranty</div>
-            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white w-[30%]' type='submit'>
+            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%]' type='submit'>
                  Book Now 
                 </button>
 
             </div>
          </div>
-        <div className='p-10 mt-6  '>
+        <div className='lg:p-10 p-5 mt-6  '>
             <img className='shadow-2xl border rounded-md' src={product2} alt="" />
         </div>
       
-        <div className='p-10 mt-6  '>
+        <div className='lg:p-10 p-5 mt-6  '>
         <Slider {...carouselSettings} className="transition duration-300 h-[58vh] ease-in-out shadow-xl">
           {carouselData.map(item => (
             <div key={item.id}>
@@ -96,7 +96,7 @@ const Producthero = () => {
         </Slider>
 
         </div>
-        <div className='p-10 '>
+        <div className='lg:p-10 p-5 '>
             <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Swaknee</div>
             <div className='font-semibold text-4xl text-[#02569C] mb-3 tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
@@ -112,7 +112,7 @@ const Producthero = () => {
             <div>Minimal maintenance required.</div>
             <div>Compatible with our full line of exclusive accessories</div>
             <div>3-Year Limited Warranty</div>
-            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white w-[30%]' type='submit'>
+            <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%]' type='submit'>
                  Book Now 
                 </button>
 

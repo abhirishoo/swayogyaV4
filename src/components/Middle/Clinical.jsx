@@ -72,14 +72,14 @@ const Clinical = () => {
               </Slider> */}
               {/* <Partners/> */}
               <Marquee speed={60} gradientWidth={20}  gradient={true} className="mt-10">
-                <div className="md:gap-10 mt-12 gap-5 flex flex-row">
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image1} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image2} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image3} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image4} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image5} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image6} alt="" /> </div>
-        <div> <img className="md:w-30 md:h-60 w-15 h-12 px-2 " src={image7} alt="" /> </div>
+                <div className="md:gap-10 lg:mt-12 lg:gap-5 flex flex-row">
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image1} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image2} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image3} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image4} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image5} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image6} alt="" /> </div>
+        <div> <img className="md:w-30 md:h-60 w-[30vh] h-[20vh] px-2 " src={image7} alt="" /> </div>
      
         </div>
         </Marquee>

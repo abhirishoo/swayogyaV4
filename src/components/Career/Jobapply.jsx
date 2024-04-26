@@ -51,9 +51,9 @@ const Jobapply = () => {
   };
 
   return (
-    <div className='flex flex-cols-2'>
-    <div className='container  px-5  '>
-      <div className='max-w-2xl ml-[20vh]'>
+    <div className='lg:flex lg:flex-cols-2'>
+    <div className='container  lg:px-5  '>
+      <div className='lg:max-w-2xl  w-full lg:ml-[20vh] ml-[9vh]'>
         <form ref={formRef} onSubmit={handleSubmit}>
         <div className='mb-4'>Your name</div>
             <TEInput
@@ -143,7 +143,7 @@ const Jobapply = () => {
       </div>
       <ToastContainer position='bottom-right' autoClose={3000} />
     </div>
-    <div className='mx-[20vh] w-[90vh]'><img src={careerimg} alt="" />
+    <div className='lg:mx-[20vh] lg:w-[90vh] w-[40vh] mx-auto'><img src={careerimg} alt="" />
     </div>
               </div>
         

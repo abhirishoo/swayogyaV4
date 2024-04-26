@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const AboutUs = () => {
   return (
-    <div className='lg:-mt-5'>
+    <div className='lg:-mt-5 mt-[60vh]'>
       <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]   md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
         Welcome to Swayogya Rehab Solution
       </div>
@@ -27,7 +27,7 @@ const AboutUs = () => {
         <div className=' '>
         <div className="w-full px-5">
        
-        <div className="w-full    shadow-[rgba(0,_0,_0,_0.58)_0px_3px_8px]  rounded-lg transition duration-300 ease-in-out ">
+        <div className="w-full  -mt-10 lg:mt-0  shadow-[rgba(0,_0,_0,_0.58)_0px_3px_8px]  rounded-lg transition duration-300 ease-in-out ">
           <video
             autoPlay
             muted

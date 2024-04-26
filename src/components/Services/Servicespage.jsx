@@ -32,7 +32,7 @@ const Servicespage = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae, dolorum sint distinctio quae eveniet iure esse tempora officiis rem ipsa nobis vitae, obcaecati nihil facere quisquam error suscipit aliquid.
                         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
-            <button className='hover:bg-[#f57b00d4] bg-[#F57C00] mt-10 lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+            <button className= ' hover:bg-[#f57b00d4] bg-[#F57C00] mt-10 lg:px-7 md:px-11 py-2 px-10 ml-12 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
             </button>
           </Link> </TERipple>
@@ -45,7 +45,7 @@ const Servicespage = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente odio voluptatum, veniam perferendis pariatur veritatis quas beatae quam? Quae quod cumque iste soluta ipsam libero necessitatibus at atque perferendis.
                         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
-            <button className='hover:bg-[#f57b00d4] bg-[#F57C00]  mt-10 lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+            <button className='hover:bg-[#f57b00d4] bg-[#F57C00]  mt-10 lg:px-7 md:px-11 px-10 py-2 ml-12 mb-10 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
             </button>
           </Link> </TERipple>
@@ -76,7 +76,7 @@ const Servicespage = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quae? Autem adipisci ratione tenetur cumque. Repellendus dolor aut ut accusantium ex quae, eligendi, deleniti ullam, numquam voluptates natus placeat delectus!
                         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
-            <button className='hover:bg-[#f57b00d4] bg-[#F57C00] mt-10   lg:px-7 md:px-11 py-2 ml-24 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
+            <button className='hover:bg-[#f57b00d4] bg-[#F57C00] mt-10   lg:px-7 md:px-11 px-10 py-2 ml-12 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
             </button>
           </Link> </TERipple>

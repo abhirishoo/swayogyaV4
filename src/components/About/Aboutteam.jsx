@@ -24,7 +24,7 @@ const Aboutteam = () => {
   return (
     <div>
       {/* Board of Directors Section */}
-      <div className="mt-[22vh] bg-[#0288D1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5">
+      <div className="lg:mt-[22vh] mt-[10vh] bg-[#0288D1] lg:h-[12vh] h-[10vh] px-[20vh] text-white font-bold lg:text-5xl text-3xl opacity-80 p-5">
         About Team
       </div>
       <h2 className="mt-10 text-3xl text-center font-semibold">

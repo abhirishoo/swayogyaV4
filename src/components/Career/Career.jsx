@@ -7,10 +7,10 @@ const Career = () => {
             <div className="lg:mt-[22vh] mt-[12vh] bg-[#0288d1] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
                 Career
             </div>
-            <div className="h-auto lg:w-[80%]   mx-auto lg:mt-10 p-4 mb-10 md:px-0">
-                <div className="shadow-xl h-[64vh] grid grid-cols-1">
+            <div className="h-auto lg:w-[80%]   mx-auto lg:mt-10 p-4 lg:mb-10 md:px-0">
+                <div className="shadow-xl lg:h-[64vh] h-[140vh] grid grid-cols-1">
                         <div className='flex mx-auto text-5xl font-bold'>Why Join Us?</div>
-                    <div className="mt-10 md:mt-0 px-5 md:px-8">
+                    <div className=" md:mt-0 px-5 md:px-8">
                         <div className="font-bold text-xl mb-2"></div>
                         <div className=" md:text-lg">
                         <div>At Swayogya, we develop advanced PEMF devices that enhance the quality of life for individuals with Knee OA. Our dedicated team includes rehabilitation professionals, doctors, and engineers working together to push the boundaries of medical and technological advancements.

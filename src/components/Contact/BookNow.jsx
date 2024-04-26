@@ -51,10 +51,10 @@ const BookNow = () => {
 
   return (
     <div className=''>
-      <div className="mt-[22vh] bg-[#f57c00] h-[12vh] px-[20vh] text-white font-bold text-5xl opacity-80 p-5 ">
+      <div className="lg:mt-[22vh] mt-[12vh] bg-[#f57c00] lg:h-[12vh] px-[20vh] text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
     Book Now
      </div>
-    <div className=' shadow-xl w-[70%] mx-auto mb-10 mt-[5vh]  '>
+    <div className=' shadow-xl lg:w-[70%] w-[90%] mx-auto mb-10 mt-[5vh]  '>
 
     <div className='container mx-auto px-5 lg:px-10 py-10'>
       <div className='max-w-2xl mx-auto'>

@@ -159,9 +159,9 @@ export default function FooterAdvancedExample() {
            
                     
                 {/* <!-- Links section --> */}
-                <div className="grid md:grid-cols-2 md:text-center md:-ml-30 gap-[35vh] lg:grid-cols-3">
+                <div className="grid md:grid-cols-2 md:text-center md:-ml-30 lg:gap-[35vh] gap-[5vh] lg:grid-cols-3">
                     <Link to="/">
-                    <div className="mb-6">
+                    <div className="lg:mb-6">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none">
@@ -181,7 +181,7 @@ export default function FooterAdvancedExample() {
                     </div>
                     </Link>
                             <Link to="/product">        
-                    <div className="mb-6">
+                    <div className="lg:mb-6">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none ">
@@ -201,7 +201,7 @@ export default function FooterAdvancedExample() {
                     </div>
                     </Link>
 
-                    <div className="mb-6 lg:ml-0">
+                    <div className="lg:mb-6 lg:ml-0">
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none">
