@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const AboutUs = () => {
   return (
-    <div className='lg:-mt-5 mt-[60vh]'>
+    <div className='lg:-mt-5 mt-[30vh]'>
       <div className='mb-1 md:mb-5 ml-8 md:ml-[12%]   md:mt-16 font-bold text-[#0288D1] text-3xl lg:text-5xl tracking-tight'>
         Welcome to Swayogya Rehab Solution
       </div>
@@ -15,7 +15,7 @@ const AboutUs = () => {
             About Swayogya
           </div>
           <div className='text-sm md:text-lg text-[#263238] mb-4'>
-            At <i>Swayogya</i>, we pioneer PEMF therapy for knee osteoarthritis, blending innovation and compassion to transform healthcare. With a focus on R&D, we bridge science and societal well-being, offering hope and improved quality of life to those with chronic conditions. Join us as we redefine medical technology, making high-quality treatment accessible to all.
+            At <i>Swayogya</i>, we explore PEMF therapy for knee osteoarthritis, blending innovation and compassion to transform healthcare. With a focus on R&D, we bridge science and societal well-being, offering hope and improved quality of life to those with chronic conditions. Join us as we redefine medical technology, making high-quality treatment accessible to all.
           </div>
           <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
           <div className=' flex px-5 md:ml-[75%] md:mt-[11%]  font-bold text-[#0288D1] text-[0.1vw] lg:text-[1vw] 

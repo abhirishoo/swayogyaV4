@@ -21,7 +21,7 @@ const Swaknee = () => {
           Swaknee - the Knee Osteoarthritis Relief System!
           </div>
           <div className='text-sm md:text-lg text-[#263238] mb-4'>
-          Introducing<i> Swaknee</i> the portable, IoT-enabled device harnessing advanced PEMF technology to reduce knee pain, improve functionality, and promote overall joint health. With its rechargeable battery and user-friendly design, SWA-KNEE offers a convenient solution for those seeking relief and mobility. Say goodbye to discomfort and hello to freedom with SWA-KNEE.
+          Introducing<i> Swaknee</i> the clinically proven, portable and cost-effective medical device harnessing advanced PEMF technology to reduce knee pain, improve functionality, and promote overall joint health. With its rechargeable battery and user-friendly design, SWA-KNEE offers a convenient solution for those seeking relief and mobility. Say goodbye to discomfort and hello to freedom with SWA-KNEE.
           </div>
           <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
           <div className=' flex px-5 md:ml-[75%] md:mt-[5%]  font-bold text-[#0288D1] text-[0.1vw] lg:text-[1vw] 

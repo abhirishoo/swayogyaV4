@@ -43,17 +43,15 @@ const Producthero = () => {
             <div className='font-semibold text-4xl  mb-3 text-[#02569C] tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
             <div className='flex flex-col gap-2 mt-3 font-semibold'>
-            <div>23 lb (10.4 kg)</div>
-            <div>17” L x 9” W x 13.5” H</div>
-            <div>Spark Gap Power</div>
-            <div>Single Outlet for use of one accessory at a time</div>
-            <div>Infinity Timer.</div>
-            <div>Simple one-dial control for low-to-high magnetic field strength intensity</div>
-            <div>Durable, high-impact pelican case</div>
-            <div>100% Polyester shoulder strap for easy transport</div>
-            <div>Minimal maintenance required.</div>
-            <div>Compatible with our full line of exclusive accessories</div>
-            <div>3-Year Limited Warranty</div>
+            <div>Dimensions: 10 cm length x 10 cm breadth x 6.5 cm height</div>
+            <div>Weight: 200 gm</div>
+            <div>Battery: Lithium-ion, 10000 mAh, provides up to 10 hours of continuous use</div>
+            <div>Material: Biocompatible materials ensure safety and comfort during use</div>
+            <div>Technology: Incorporates high-efficiency electromagnets for effective PEMF therapy</div>
+            <div>Operation: Simple one-click operation for ease of use</div>
+            <div>Warranty: 1-year comprehensive coverage</div>
+            <div>Package Includes: SWA-KNEE1 device, charging cable, user manual</div>
+            <div>Special Features: Lightweight design suitable for active and sedentary lifestyles alike</div>
             <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%] ' type='submit'>
                  Book Now 
                 </button>
@@ -61,21 +59,20 @@ const Producthero = () => {
             </div>
          </div>
          <div className='lg:p-10 p-5 '>
-            <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Swaknee</div>
+            <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>SWA-KNEE module with screen</div>
             <div className='font-semibold text-4xl text-[#02569C] mb-3 tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
             <div className='flex flex-col gap-2 mt-3 font-semibold'>
-            <div>23 lb (10.4 kg)</div>
-            <div>17” L x 9” W x 13.5” H</div>
-            <div>Spark Gap Power</div>
-            <div>Single Outlet for use of one accessory at a time</div>
-            <div>Infinity Timer.</div>
-            <div>Simple one-dial control for low-to-high magnetic field strength intensity</div>
-            <div>Durable, high-impact pelican case</div>
-            <div>100% Polyester shoulder strap for easy transport</div>
-            <div>Minimal maintenance required.</div>
-            <div>Compatible with our full line of exclusive accessories</div>
-            <div>3-Year Limited Warranty</div>
+            <div>Dimensions: 20 cm length x 20 cm breadth x 12 cm height</div>
+            <div>Weight: 500 gm</div>
+            <div>Battery: Lithium-ion, 10000 mAh, up to 15 hours of operation</div>
+            <div>Material: High-grade biocompatible materials with enhanced durability</div>
+            <div>Technology: Advanced IoT capabilities for smart monitoring and control
+</div>
+            <div>Interface: User-friendly touch interface for adjusting settings</div>
+            <div>Operation: One-click startup with additional touch controls</div>
+            <div>Package Includes: SWA-KNEE2 device, USB charging cable, comprehensive user guide</div>
+            <div>Special Features: IoT enabled for integration with other smart devices and health apps, robust construction suitable for varying climatic conditions </div>
             <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%]' type='submit'>
                  Book Now 
                 </button>
@@ -97,21 +94,21 @@ const Producthero = () => {
 
         </div>
         <div className='lg:p-10 p-5 '>
-            <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Swaknee</div>
+            <div className='font-bold text-5xl tracking-tighter text-[#02569C] mb-2'>Electromagnetic Knee Brace</div>
             <div className='font-semibold text-4xl text-[#02569C] mb-3 tracking-tight'>Product Specification</div>
             <div className='bg-zinc-600 h-[0.5px] w-[50%]'></div>
             <div className='flex flex-col gap-2 mt-3 font-semibold'>
-            <div>23 lb (10.4 kg)</div>
-            <div>17” L x 9” W x 13.5” H</div>
-            <div>Spark Gap Power</div>
-            <div>Single Outlet for use of one accessory at a time</div>
-            <div>Infinity Timer.</div>
-            <div>Simple one-dial control for low-to-high magnetic field strength intensity</div>
-            <div>Durable, high-impact pelican case</div>
-            <div>100% Polyester shoulder strap for easy transport</div>
-            <div>Minimal maintenance required.</div>
-            <div>Compatible with our full line of exclusive accessories</div>
-            <div>3-Year Limited Warranty</div>
+            <div>Material: Lightweight, durable fabric integrated with biocompatible components.</div>
+            <div>Technology: Embedded with electromagnetic coils that generate therapeutic pulsed electromagnetic fields (PEMF).</div>
+            <div>Operation: One-click operation with LED indicators for therapy settings.</div>
+            <div>Battery: Rechargeable lithium-ion battery capable of several hours of continuous operation.</div>
+            <div>Therapeutic Benefits: Helps to reduce inflammation, promote circulation, and accelerate recovery.</div>
+            <div>Size Options: Available in various sizes to ensure a proper fit for all users.
+</div>
+            <div>Special Features: Designed for both active and sedentary lifestyles, can be worn discreetly under clothing.</div>
+            <div>Warranty: Comes with a minimum one-year warranty covering defects and functionality.
+</div>
+            <div>Package Includes: Electromagnetic knee brace, electronic controller, charging cable, and user manual.</div>
             <button className='  hover:bg-[#212ea0] bg-[#f57c00] mt-3   px-7 py-2   rounded-full items-center font-semibold text-white lg:w-[30%]' type='submit'>
                  Book Now 
                 </button>

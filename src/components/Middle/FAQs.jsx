@@ -4,24 +4,22 @@ import { TECollapse } from "tw-elements-react";
 const AccordionItem = ({ item, show, toggleShow }) => {
   // Define the question and answer for each item
   const questions = [
-    "What is the first question?",
-    "What is the second question?",
-    "What is the second question?",
-    "What is the second question?",
-    "What is the second question?",
-    "What is the second question?",
-    "What is the second question?",
+    "What is Swa-Knee?",
+    "How does Swa-Knee function?",
+    "What is PEMF technology?",
+    "Are there any side effects associated with Swa-Knee?",
+    "Can Swa-Knee be used alongside other treatments?",
+    "How long should I use Swa-Knee each day?",
     // Add more questions as needed
   ];
 
   const answers = [
-    "This is the answer to the first question.",
-    "This is the answer to the first question.",
-    "This is the answer to the first question.",
-    "This is the answer to the first question.",
-    "This is the answer to the first question.",
-    "This is the answer to the first question.",
-    "This is the answer to the second question.",
+    "Swa-Knee is a revolutionary medical device designed for pain relief that is both lightweight andportable. It can be conveniently worn over any painful area to alleviate discomfort effectively. ",
+    "Swa-Knee combines a biocompatible knee brace with advanced electromagnets that generatePEMF (Pulsed Electromagnetic Field) signals. These signals penetrate clothing and tissues totarget pain at the cellular level, offering pain relief wherever and whenever needed as part of yourdaily lifestyle",
+    "PEMF technology, utilized by renowned institutions like NASA and Johns Hopkins for decades, employs electromagnetic waves to stimulate cellular recovery and enhance their energyproduction. Swa-Knee adapts this clinically proven technology into a portable, wearable format that is safe, effective, and free from side effects, making advanced pain relief accessible at homeor on the go",
+    "Swa-Knee, utilizing PEMF technology, is free from known side effects. While users might experience a slight warming sensation due to increased blood circulation triggered by PEMF, thisis a normal response and not a side effect",
+    "Swa-Knee is designed to complement various treatment modalities, making it a versatile additionto traditional medical treatments or physical therapy routines for comprehensive pain management.",
+    "For optimal results, it is recommended to use Swa-Knee for specific durations based ontheseverity of pain and the advice of your healthcare provider, ensuring a personalized approachtopain management.",
     // Add more answers as needed
   ];
 
@@ -59,7 +57,7 @@ export default function AccordionAlwaysOpen() {
     setShow(prevState => ({ ...prevState, [collapseKey]: !prevState[collapseKey] }));
   };
 
-  const accordionItems = Array.from({ length: 7 }, (_, index) => index + 1);
+  const accordionItems = Array.from({ length: 6 }, (_, index) => index + 1);
 
   return (
     <div className="w-[90%] shadow-lg  ml-[5%]">

@@ -25,14 +25,14 @@ const Services = () => {
             PEMF Therapy Devices
             </h5>
             <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </p>
+            Experience the benefits of our PEMF (Pulsed Electromagnetic Field) Therapy Devices, designedtoenhance cellular repair and overall wellness. Our devices leverage patented technology to deliver painrelief and improved mobility without drugs or invasive methods, ensuring a natural and holistic approachto health.
+            </p>  <Link to={"/services"}> 
             <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
-          <div className=' flex px-6 md:ml-[55%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
-            tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>Explore 
+             <div className=' flex px-6 md:ml-[65%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
+            tracking-tight cursor-pointer  hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>Explore 
             </div>
-            <span className='  lg:-ml-[10%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
-          </div>
+            <span className='  lg:-ml-[8%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
+          </div> </Link>
           </div>
         </div>
       </div>
@@ -48,14 +48,13 @@ const Services = () => {
             Rehabilitation Services
             </h5>
             <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </p>
+            Our comprehensive rehabilitation services include a range of products that support recovery and improve physical capabilities. Whether recovering from injury or managing chronic conditions, our tailored solutions help individuals regain strength and mobility through state-of-the-art rehabilitation techniques.    </p> <Link to={"/services"}> 
             <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
-          <div className=' flex px-6 md:ml-[55%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
+          <div className=' flex px-6 md:ml-[65%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
             tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>Explore 
             </div>
-            <span className='  lg:-ml-[10%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
-          </div>
+            <span className='  lg:-ml-[8%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
+          </div></Link>
           </div>
         </div>
       </div>
@@ -70,15 +69,13 @@ const Services = () => {
             <h5 className="mb-2 text-xl font-bold leading-tight text-neutral-800 dark:text-neutral-50">
             Educational Resources
             </h5>
-            <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </p>
+            <p className="mb-4 text-base text-neutral-600  dark:text-neutral-200">
+            Stay ahead with our education and training programs focusing on cutting-edge technologies such as AI/ML, DSP in healthcare, and rapid prototyping. These programs are designed to empower healthcare professionals and enthusiasts with the skills and knowledge to implement the latest advancements in their practices.     </p> <Link to={"/services"}> 
             <div className=' flex cursor-pointer hover:text-[#00b0ff] '>
-          <div className=' flex px-6 md:ml-[55%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] 
-            tracking-tight cursor-pointer hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out  '>Explore 
+          <div className=' flex px-6 md:ml-[65%]   ml-[75%]   font-bold text-[#0288D1] text-[4.1vw] lg:text-[1vw] tracking-tight cursor-pointer  hover:text-[#00b0ff] hover:translate-x-1 transition duration-300 ease-in-out '>Explore 
             </div>
-            <span className='  lg:-ml-[10%] -ml-[6%] mt-0.5 text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
-          </div>
+            <span className='  lg:-ml-[8%] -ml-[6%]  text-[#00b0ff] '> <MdKeyboardArrowRight size='1.4vw'    /></span>
+          </div></Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
-import { useState } from 'react';
+import React from "react";
+import { Link as LinkScroll } from "react-scroll";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 import CompanyLogo from "../../assets/CompanyLogo.png";
 import navbar1 from "../../assets/navbarphotos/navbar1.jpg";
 import navbar2 from "../../assets/navbarphotos/navbar2.jpg";
@@ -7,9 +9,9 @@ import navbar3 from "../../assets/navbarphotos/navbar3.jpg";
 import navbar4 from "../../assets/navbarphotos/navbar4.jpg";
 import navbar6 from "../../assets/navbarphotos/navbar6.jpg";
 import navbar10 from "../../assets/navbarphotos/navbar10.jpg";
-import { Link } from 'react-router-dom';
-import { TEInput, TERipple } from "tw-elements-react";
-import { TETextarea } from "tw-elements-react";
+import { TERipple } from "tw-elements-react";
+import { useState } from "react";
+
 const Navbar = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   const [timeoutId, setTimeoutId] = useState(null);
@@ -47,7 +49,7 @@ const Navbar = () => {
             </Link>
           </div>
         <div className='flex mt-5 lg:gap-10 gap-2'>
-          <div
+        <Link to="/"> <div
             className='cursor-pointer relative '
             onMouseEnter={() => handleMouseEnter('home')}
             onMouseLeave={handleMouseLeave}>
@@ -56,32 +58,68 @@ const Navbar = () => {
               <div className={`fixed mt-5 left-0 w-full bg-[#0288D1] h-50 px-[20vw] py-[5vh] text-white ${hoveredItem === 'home' ? 'fade-in' : 'fade-out'}`}>
                 <div className='grid grid-cols-4 gap-10'> 
                   <div className='grid grid-row-4 '>
-                          <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className=' hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
-                      <MdKeyboardArrowRight size={20}  />
-                  </div><div>  About Us </div></div>
+                  <LinkScroll to="about-us-section" smooth={true} offset={-200} duration={500} className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'>
+                  <div className='hover:scale-x-130 mt-18 lg:-my-0.5 hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
+                    <MdKeyboardArrowRight size={20} />
+                  </div>
+                  <div>About Us</div>
+                </LinkScroll>
+                <LinkScroll to="swaknee" smooth={true}  offset={-200} duration={500} >
+            
                           <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Swaknee </div></div>
+                </LinkScroll>
+
+                <LinkScroll to="clinical" smooth={true}  offset={-200} duration={500} >
+
                           <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Clinical </div></div>
+                </LinkScroll>
+
+                <LinkScroll to="steps" smooth={true}  offset={-200} duration={500} >
+
                           <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Steps </div></div>
+
+                </LinkScroll>
+
                   </div>
                   <div className='grid grid-row-4 gap-2'>
+                  
+                <LinkScroll to="science" smooth={true}  offset={-200} duration={500} >
+
                   <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Science Behind </div></div>
+                </LinkScroll>
+
+                <LinkScroll to="services" smooth={true}  offset={-200} duration={500} >
+
                   <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Services </div></div>
+
+                </LinkScroll>
+
+                <LinkScroll to="faq" smooth={true}  offset={-200} duration={500} >
+                
                   <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  FAQ's </div></div>
+
+                </LinkScroll>
+
+
+                <LinkScroll to="testimonials"  smooth={true}  offset={-200} duration={500} >
+
                   <div className='flex  items-center hover:translate-x-1 transition duration-300 ease-in-out' > <div className='hover:scale-x-130 mt-18 lg:-my-0.5  hover:translate-x-1 hover:text-white transition duration-300 ease-in-out'>
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>  Testimonials</div></div>
+                </LinkScroll>
+
                   </div>
                   <div>
                     <img src={navbar1} alt="img1" />
@@ -92,7 +130,7 @@ const Navbar = () => {
                 </div>
               </div>
             )}
-          </div>
+          </div>  </Link> 
           <div
             className="cursor-pointer relative"
             onMouseEnter={() => handleMouseEnter('about')}
@@ -146,11 +184,7 @@ const Navbar = () => {
                       <MdKeyboardArrowRight size={20}  />
                   </div><div>Educational Resources & Training</div></div>
                         </Link>
-                  <Link to="/services">
-                    <div className='flex items-center hover:translate-x-1 transition duration-300 ease-in-out'> <div className='hover:scale-x-130 mt-18 lg:-my-0.5 hover:translate-x-1 transition duration-300 ease-in-out  hover:text-white '>
-                      <MdKeyboardArrowRight size={20}  />
-                  </div><div>Consultation and Technical Support</div></div>
-                        </Link>
+               
                   </div>
                   <div className='flex flex-row-reverse ml-[34vh] gap-5'>
                   <img className='' src={navbar10} alt="img1" />

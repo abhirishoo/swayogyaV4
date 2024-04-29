@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TEInput } from 'tw-elements-react';
-
+import { Link as LinkScroll } from "react-scroll";
 export default function FooterAdvancedExample() {
     return (
         <footer className="bg-[#02569C] text-center text-white">
@@ -165,17 +165,33 @@ export default function FooterAdvancedExample() {
                         {/* <h5 className="mb-2.5 font-bold uppercase">Links</h5> */}
 
                         <ul className="mb-0 list-none">
+
                             <li>
+                <LinkScroll to="about-us-section" smooth={true}  offset={-200} duration={500} >
+
                                 <a className="text-white">About Us</a>
+                    </LinkScroll>
                             </li>
                             <li>
+                <LinkScroll to="swaknee" smooth={true}  offset={-200} duration={500} >
+
                                 <a className="text-white">Swaknee</a>
+                    </LinkScroll>
+
                             </li>
                             <li>
+                <LinkScroll to="services" smooth={true}  offset={-200} duration={500} >
+
                                 <a className="text-white">Services</a>
+                    </LinkScroll>
+
                             </li>
                             <li>
+                <LinkScroll to="faq" smooth={true}  offset={-200} duration={500} >
+
                                 <a className="text-white">FAQ's</a>
+                    </LinkScroll>
+
                             </li>
                         </ul>
                     </div>
@@ -194,9 +210,7 @@ export default function FooterAdvancedExample() {
                             <li>
                                 <a className="text-white">Educational Resources & Training</a>
                             </li>
-                            <li>
-                                <a className="text-white">Personalized Consultation and Technical Support</a>
-                            </li>
+                           
                         </ul>
                     </div>
                     </Link>
@@ -206,13 +220,13 @@ export default function FooterAdvancedExample() {
 
                         <ul className="mb-0 list-none">
                             <li>
-                                <a className="text-white"> <Link to="/career">Career </Link></a>
+                                <a className="text-white"> <Link to="/career"> Career </Link></a>
                             </li>
                             <li>
                                 <a target='_blank' href='https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=pemf+on+osteoarthritis&btnG=&oq=PEMF+on+' className="text-white">How PEMF works</a>
                             </li>
                             <li>
-                                <a className="text-white"> <Link to="/">Science behind Swaknee </Link></a>
+                                <Link to="/" className="text-white">  <LinkScroll to='science' spy="true" smooth={true}  offset={-200} duration={500}> Science behind Swaknee</LinkScroll> </Link>
                             </li>
                                 {/* <li>
                                     <a className="text-white">Link 4</a>

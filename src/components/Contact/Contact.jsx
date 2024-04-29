@@ -53,7 +53,7 @@ const Contact = () => {
     <div className='min-h-screen px-5 lg:px-40 '>
       <div className='flex justify-center text-[#0288D1] lg:text-5xl text-2xl font-bold'>Get in Touch</div>
       <div className='flex justify-center text-[#0288D1] font-semibold'>CONTACT US</div>
-      <div className='flex flex-col lg:flex-row mt-10 lg:mt-20'>
+      <div className='flex flex-col lg:flex-row mt-10 lg:mt-10'>
         <div className='lg:w-1/2'>
           <div className='flex items-center lg:text-xl font-semibold'>
             Send us a message <img className='w-10 ml-3' src={msgicon} alt='msgicon' />

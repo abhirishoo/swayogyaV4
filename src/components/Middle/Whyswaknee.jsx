@@ -22,28 +22,28 @@ const Whyswaknee = () => {
               {/* Title */}
               <div className="text-2xl mt-3 mb-2 font-semibold gap-2 flex items-center">  Clinically Proven  </div>
               {/* Description */}
-              <p className="opacity-90 text-center w-[50vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur!</p>
+              <p className="opacity-90 text-center w-[50vh]"> Efficacy and safety validated through rigorous clinical trials</p>
             </div>
 
             {/* Item 2 */}
             <div className="flex flex-col items-center p-2 ml-5 mr-10"> {/* Add mr-10 for right margin */}
               <IoIosCheckmarkCircle color='#ffa405' size='50' />
               <div className="text-2xl mt-3 mb-2 font-semibold gap-2 flex items-center">  Non Invasive  </div>
-              <p className="opacity-90 text-center w-[50vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur!</p>
+              <p className="opacity-90 text-center w-[50vh]">Enhances health without penetrating the skin or body</p>
             </div>
 
             {/* Item 3 */}
             <div className="flex flex-col items-center p-2 ml-5 mr-10"> {/* Add mr-10 for right margin */}
               <IoIosCheckmarkCircle color='#ffa405' size='50' />
               <div className="text-2xl mt-3 mb-2 font-semibold gap-2 flex items-center">  Patented Technology  </div>
-              <p className="opacity-90 text-center w-[50vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur!</p>
+              <p className="opacity-90 text-center w-[50vh]">Features exclusive, proprietary technological advancements. </p>
             </div>
 
             {/* Item 4 */}
             <div className="flex flex-col items-center p-2 ml-5"> {/* No right margin for the last item */}
               <IoIosCheckmarkCircle color='#ffa405' size='50' />
-              <div className="text-2xl mt-3 mb-2 font-semibold gap-2 flex items-center">  Chemical/Drug Free </div>
-              <p className="opacity-90 text-center w-[50vh]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur!</p>
+              <div className="text-2xl mt-3 mb-2 font-semibold gap-2 flex items-center">  100 % Drug Free </div>
+              <p className="opacity-90 text-center w-[50vh]">Completely devoid of chemicals or pharmaceutical substances.</p>
             </div>
           </div>
         </div>

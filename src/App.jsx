@@ -44,21 +44,44 @@ function App() {
                   <Navbar />
                   {/* <ScrollHideDiv  />  */}
                 </div>
-                <div id="MainContent">
+                <div id="about-us-section">
                   <AboutUs />
                   {/* <Ticks /> */}
+                  <div id='swaknee'>
                   <Swaknee />
+                  </div>
+                  <div id='clinical'>
+
                   <Clinical />
+                  </div>
+                  <div id='steps'>
+
                   <Steps />
+                  </div>
+                  <div id='science'>
                   <Science/>
+
+                  </div>
+                  <div id='whyswaknee'>
+
                   <Whyswaknee/>
+                  </div>
+                  <div id='services'>
                   <Services />
+
+                  </div>
                 </div>
                 <div id="ContactUs">
                   
                   <Partners />
+                  <div id='faq'>
+
                   <FAQs />
+                  </div>
+                  <div id='testimonials'>
                   <Testimonials />
+
+                  </div>
                   <Contact />
                 </div>
                 <div id="Footer">

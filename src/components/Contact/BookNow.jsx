@@ -54,6 +54,7 @@ const BookNow = () => {
       <div className="lg:mt-[22vh] mt-[8vh] bg-[#f57c00] lg:h-[12vh] lg:px-[20vh] text-white font-bold lg:text-5xl text-4xl opacity-80 p-5 ">
     Book Now
      </div>
+     <div className='lg:w-[70%] w-[90%] mx-auto mb-10 mt-[5vh] text-2xl'>Thank you for choosing us! <br /> Please fill out the form below to book your appointment. <br /> We look forward to helping you enhance your health and well-being.</div>
     <div className=' shadow-xl lg:w-[70%] w-[90%] mx-auto mb-10 mt-[5vh]  '>
 
     <div className='container mx-auto px-5 lg:px-10 py-10'>

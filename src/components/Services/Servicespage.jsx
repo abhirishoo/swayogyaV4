@@ -1,6 +1,7 @@
 import React from 'react';
-import training from "../../assets/training/1.jpg";
-import pemf from "../../assets/Product/brace/6.jpg";
+import training from "../../assets/Product/brace/rehablitation.png";
+import education from "../../assets/training/1.jpg";
+import pemf from "../../assets/Product/brace/pemf.png";
 import { Link } from 'react-router-dom';
 import { TEInput, TERipple } from "tw-elements-react";
 import { TETextarea } from "tw-elements-react";
@@ -29,8 +30,7 @@ const Servicespage = () => {
                     <div className="mt-10 md:mt-0 px-5 md:px-8">
                         <div className="font-bold text-xl mb-2">PEMF Therapy Devices</div>
                         <p className="text-base md:text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae, dolorum sint distinctio quae eveniet iure esse tempora officiis rem ipsa nobis vitae, obcaecati nihil facere quisquam error suscipit aliquid.
-                        </p>
+                        Experience the benefits of our PEMF (Pulsed Electromagnetic Field) Therapy Devices, designed to enhance cellular repair and overall wellness. Our devices leverage patentedtechnology to deliver pain relief and improved mobility without drugs or invasive methods, ensuring a natural and holistic approach to health.         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
             <button className= ' hover:bg-[#f57b00d4] bg-[#F57C00] mt-10 lg:px-7 md:px-11 py-2 px-10 ml-12 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
               Book Now
@@ -42,7 +42,7 @@ const Servicespage = () => {
                     <div className="mt-10 md:mt-0 px-5 md:px-8">
                         <div className="font-bold text-xl mb-2">Rehabilitation Services</div>
                         <p className="text-base md:text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente odio voluptatum, veniam perferendis pariatur veritatis quas beatae quam? Quae quod cumque iste soluta ipsam libero necessitatibus at atque perferendis.
+                        Our comprehensive rehabilitation services include a range of products that support recoveryand improve physical capabilities. Whether recovering from injury or managing chronicconditions, our tailored solutions help individuals regain strength and mobility throughstate-of-the-art rehabilitation techniques.
                         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
             <button className='hover:bg-[#f57b00d4] bg-[#F57C00]  mt-10 lg:px-7 md:px-11 px-10 py-2 ml-12 mb-10 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
@@ -53,7 +53,7 @@ const Servicespage = () => {
                     <div className='w-full'>
                         <div className="w-full px-5">
                             <img
-                                className="w-full rounded-lg"
+                                className="w-full h-[80vh] rounded-lg"
                                 src={training}
                                 alt="Educational Resources"
                             />
@@ -65,7 +65,7 @@ const Servicespage = () => {
                         <div className="w-full px-5">
                             <img
                                 className="w-full rounded-lg"
-                                src={training}
+                                src={education}
                                 alt="Educational Resources"
                             />
                         </div>
@@ -73,7 +73,7 @@ const Servicespage = () => {
                     <div className="mt-10 md:mt-0 px-5 md:px-8">
                         <div className="font-bold text-xl mb-2">Educational Resources</div>
                         <p className="text-base md:text-lg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, quae? Autem adipisci ratione tenetur cumque. Repellendus dolor aut ut accusantium ex quae, eligendi, deleniti ullam, numquam voluptates natus placeat delectus!
+                        Stay ahead with our education and training programs focusing on cutting-edge technologiessuch as AI/ML, Digital Signal Processing in healthcare, and rapid prototyping. These programs are designed to empower healthcare professionals and enthusiasts with the skillsand knowledge to implement the latest advancements in their practices effectively
                         </p>
                         <TERipple rippleColor="light">  <Link to="/booknow">
             <button className='hover:bg-[#f57b00d4] bg-[#F57C00] mt-10   lg:px-7 md:px-11 px-10 py-2 ml-12 lg:ml-0 rounded-full items-center font-semibold text-white' type='submit'>
